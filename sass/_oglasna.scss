@@ -1,0 +1,97 @@
+.oglasna {
+    grid-column: full-start / full-end;
+    padding: 10rem 0;
+
+    background-color: #eee;
+    display: grid;
+    grid-template-rows: min-content;
+    justify-content: center;
+    grid-row-gap: 6rem;
+    //grid-template-columns: repeat(3, 1fr);
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 5rem;
+    }
+
+    &__naslov-okvir {
+        justify-self: center;
+    }
+
+    &__naslov {
+        margin-bottom: 10 rem;
+    }
+
+    &__oglas {
+        width: 80vw;
+        height: 100vh;
+
+        @media only screen and (max-width: $bp-small) {
+            height: 50vh;
+        }
+    }
+
+    &__oglas-okvir {
+        width: 100%;
+
+        @media only screen and (max-width: $bp-small) {
+            display: none;
+        }
+    }
+
+    &__link {
+        justify-self: center;
+    }
+
+    &__link a {
+        text-decoration: none;
+        color: #eee;
+        padding: 1.5rem;
+    }
+}
+
+.javne-nabavke {
+    grid-column: full-start / full-end;
+    padding: 10rem 0;
+
+    background-color: #eee;
+    display: grid;
+    grid-template-rows: min-content;
+    justify-content: center;
+    grid-row-gap: 6rem;
+    //grid-template-columns: repeat(3, 1fr);
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 5rem;
+    }
+
+    &__naslov-okvir {
+        justify-self: center;
+    }
+
+    &__naslov {
+        margin-bottom: 10 rem;
+    }
+
+    &__oglas {
+        width: 80vw;
+        height: 50vh;
+    }
+
+    &__oglas-okvir {
+        width: 100%;
+
+        @media only screen and (max-width: $bp-small) {
+            display: none;
+        }
+    }
+
+    &__link {
+        justify-self: center;
+    }
+
+    &__link a {
+        text-decoration: none;
+        color: #eee;
+        padding: 1.5rem;
+    }
+}
